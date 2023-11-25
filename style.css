@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&family=Manrope&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&family=Dancing+Script&family=Manrope&family=Rubik&display=swap');
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*******************NAVBAR*******************/
+nav {
+    overflow: hidden;
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 30px 150px;
+}
+
+#logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+}
+
+/* **************Image principale*********************/
+#imagePrincipale {
+    padding-top: 80px;
+    background: url(./victorian-house-3545040_1280.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 820px;
+}
+
+h1 {
+    font-family: 'dancing Sript', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 7em;
+    margin-top: 110px;
+    text-shadow: 2px 3px 5px black;
+}
+
+#premierTrait {
+    height: 3px;
+    width: 15%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    box-shadow: 2px 3px 5px black;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 2px 3px 5px black;
+    margin: 50px;
+}
+
+/* ***********PRESENTATION***************** */
+
+#presentation {
+    background-color: antiquewhite;
+    padding: 10px 0px 100px 0;
+}
+
+#textIntro {
+    padding: 0px 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width:1300px) {
+    .container {
+        /* display: flex; */
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    body {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.tourisme {
+    height: 1400px;
+    background-color: beige;
+    padding: 1px 2%;
+  }
+  
+  .tourisme h2{
+      padding-top: 60px;
+  }
+  
+
+#ocean {
+    background-image: url(./plage.jpg);
+}
+
+#chateau {
+    background-image: url(./chateau.jpg);
+}
+
+#phare {
+    background-image: url(./lighthouse-2104591_640.jpg);
+}
+
+#vignoble {
+    background-image: url(./vignobles.jpg);
+}
+
+.tourisme li {
+   margin: 65px 100px 0 100px;
+     height: 226px;
+   width: 55%;
+   max-width: 550px;
+   float: left;
+   box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+
+.tourisme p {
+    height: 25px;
+    width: 235px;
+    background-color: black;
+    float: right;
+    margin: 50px -70px 0 0;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(0, 0, 0, 0.75);
+    
+
+}
+
+    /* **************FOOTER**************** */
+    
+footer{
+    background-color: gray;
+    color: aliceblue;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 2px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxièmeTrait{
+    height: 2px;
+    width: 60%;
+    background-color: aliceblue;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 15%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: aliceblue;
+}
+#icons{
+    width: 100%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    padding: ;: 0 15px;
+    font-size: 1.3em;
+    color: antiquewhite;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+html{
+    scroll-behavior: smooth;
+}
